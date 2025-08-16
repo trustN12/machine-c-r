@@ -1,12 +1,12 @@
-# React + Vite
+Create a simple tabbed interface using Vanilla JavaScript, HTML and CSS. 
+The tabs should switch content when clicked and have a visual indication for the active tab. 
+Design the structure and functionality of these tabs.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Requirements:
+- Create Three tabs labeled "Tab 1," "Tab 2," and "Tab 3".
+- Implement functionality such that clicking on a tab changes the displayed content and visibly identifies the active tab.
+- Ensure code readability, modularity, and appropriate comments.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Bonus:
+- Implement a default tab that is active on page load.
+- Consider scalability and discuss how you might handle adding more tabs or content sections dynamically.
